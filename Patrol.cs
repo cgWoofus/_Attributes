@@ -21,6 +21,11 @@ namespace Assets.scripts._Attributes
             return true;
         }
 
+        protected override bool CanMove()
+        {
+            return true;
+        }
+
         public void init(float speed,int numberOfIndicators)
         {
             _speed = speed;

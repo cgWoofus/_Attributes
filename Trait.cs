@@ -10,6 +10,7 @@ public abstract class Trait : MonoBehaviour //,moods
     protected MeshFilter[] _meshCollection;
     protected UpdateTransform upDateTransform;
     protected abstract bool HasTarget();
+    protected abstract bool CanMove();
     protected abstract  MeshFilter GetMesh(int index);
 
 
